@@ -22,7 +22,7 @@ const Home = () => {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const res = await fetch("http://dalle-u6u8.onrender.com/api/v1/post", {
+        const res = await fetch("https://dalle-u6u8.onrender.com/api/v1/post", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

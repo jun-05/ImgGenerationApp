@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "http://dalle-e.s3-website.ap-northeast-2.amazonaws.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type"],
   credentials: true,
